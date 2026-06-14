@@ -1,0 +1,22 @@
+[
+  { "key": "AppleDisease", "name": "Apel" },
+  { "key": "BellPepperDisease", "name": "Paprika" },
+  { "key": "CherryDisease", "name": "Ceri" },
+  { "key": "CitrusDisease", "name": "Jeruk" },
+  { "key": "CornDisease", "name": "Jagung" },
+  { "key": "GrapeDisease", "name": "Anggur" },
+  { "key": "JackFruitDisease", "name": "Nangka" },
+  { "key": "MangoDisease", "name": "Mangga" },
+  { "key": "PeachDisease", "name": "Persik" },
+  { "key": "PotatoDisease", "name": "Kentang" },
+  { "key": "RiceDisease", "name": "Padi" },
+  { "key": "StrawberryDisease", "name": "Stroberi" },
+  { "key": "TomatoDisease", "name": "Tomat" },
+  { "key": "GuavaDisease", "name": "Jambu Biji" },
+  { "key": "CoconutDisease", "name": "Kelapa" },
+  { "key": "CassavaDisease", "name": "Singkong" },
+  { "key": "ChiliDisease", "name": "Cabai" },
+  { "key": "CoffeeDisease", "name": "Kopi" },
+  { "key": "TeaDisease", "name": "Teh" },
+  { "key": "WheatDisease", "name": "Gandum" }
+]

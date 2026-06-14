@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+  --green-deep:   #1B4332;
+  --green-mid:    #2D6A4F;
+  --green-bright: #52B788;
+  --green-light:  #B7E4C7;
+  --green-pale:   #D8F3DC;
+  --accent:       #F4A261;
+  --white:        #FFFFFF;
+  --gray-50:      #F9FAFB;
+  --gray-100:     #F3F4F6;
+  --gray-300:     #D1D5DB;
+  --gray-500:     #6B7280;
+  --gray-700:     #374151;
+  --gray-900:     #111827;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-md:    0 4px 16px rgba(0,0,0,0.10);
+  --shadow-lg:    0 10px 40px rgba(0,0,0,0.14);
+  --radius-sm:    8px;
+  --radius-md:    16px;
+  --radius-lg:    24px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--gray-50);
+  color: var(--gray-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--gray-100); }
+::-webkit-scrollbar-thumb { background: var(--green-light); border-radius: 99px; }
+
+/* ── Custom Dropzone Override ── */
+.custom-dropzone {
+  border: 2px dashed var(--green-bright) !important;
+  border-radius: var(--radius-md) !important;
+  background: linear-gradient(135deg, var(--green-pale) 0%, #fff 100%) !important;
+  min-height: 200px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+}
+
+.custom-dropzone:hover {
+  border-color: var(--green-mid) !important;
+  background: linear-gradient(135deg, var(--green-light) 0%, var(--green-pale) 100%) !important;
+  box-shadow: 0 0 0 4px rgba(82, 183, 136, 0.15) !important;
+  transform: scale(1.01);
+}
+
+.custom-dropzone p {
+  color: var(--green-mid) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.custom-dropzone svg {
+  color: var(--green-bright) !important;
+  font-size: 2.5rem !important;
+}

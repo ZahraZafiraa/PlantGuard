@@ -1,0 +1,487 @@
+{
+  "AppleDisease": {
+    "alternaria_leaf_spot": {
+      "name": "Bercak Daun Alternaria pada Apel",
+      "info": {
+        "description": "Penyakit yang disebabkan oleh jamur Alternaria. Muncul sebagai bercak kecil berwarna cokelat atau hitam pada daun, yang dapat meluas membentuk bercak besar dengan tepi kuning.",
+        "agent": "Jamur Alternaria",
+        "symptom": "Daun yang terinfeksi dapat layu dan rontok lebih awal. Mempengaruhi hasil dan kualitas buah."
+      }
+    },
+    "brown_spot": {
+      "name": "Bercak Cokelat pada Apel",
+      "info": {
+        "description": "Penyakit yang disebabkan oleh jamur atau bakteri. Bercak cokelat muncul pada daun, batang, atau buah.",
+        "agent": "Jamur atau Bakteri",
+        "symptom": "Bercak memiliki tepi gelap. Jika parah, bercak dapat menyatu menyebabkan daun rontok dan mengurangi fotosintesis."
+      }
+    },
+    "gray_spot": {
+      "name": "Bercak Abu-abu pada Apel",
+      "info": {
+        "description": "Penyakit yang disebabkan oleh jamur Botryosphaeria. Bercak berwarna abu-abu atau perak pada daun, ranting, dan buah.",
+        "agent": "Jamur Botryosphaeria",
+        "symptom": "Daun mengering dan rontok lebih awal, mempengaruhi pertumbuhan pohon dan kualitas buah."
+      }
+    },
+    "healthy_leaf": {
+      "name": "Daun Apel Sehat",
+      "info": {
+        "description": "Daun apel yang sehat berwarna hijau merata, tanpa bercak atau tanda-tanda penyakit."
+      }
+    },
+    "rust": {
+      "name": "Karat Daun pada Apel",
+      "info": {
+        "description": "Penyakit jamur (Gymnosporangium juniperi-virginianae). Muncul sebagai bercak oranye atau merah pada daun, batang, atau buah.",
+        "agent": "Jamur Gymnosporangium juniperi-virginianae",
+        "symptom": "Muncul bintil kecil yang mengeluarkan cairan oranye. Daun rontok lebih awal dan mengganggu perkembangan buah."
+      }
+    }
+  },
+  "BellPepperDisease": {
+    "bacterial_spot": {
+      "name": "Bercak Bakteri pada Paprika",
+      "info": {
+        "description": "Disebabkan oleh bakteri Xanthomonas. Penyakit umum dan serius pada paprika.",
+        "agent": "Bakteri Xanthomonas",
+        "symptom": "Bercak kecil berwarna cokelat tua atau kekuningan dengan lingkaran kuning. Daun bisa layu dan rontok."
+      }
+    },
+    "healthy": {
+      "name": "Tanaman Sehat",
+      "info": {
+        "description": "Tanaman paprika sehat tanpa tanda penyakit."
+      }
+    }
+  },
+  "CassavaDisease": {
+    "bacterial_blight": {
+      "name": "Bercak Bakteri pada Singkong",
+      "info": {
+        "description": "Disebabkan oleh Xanthomonas axonopodis pv. manihotis.",
+        "agent": "Bakteri Xanthomonas axonopodis pv. manihotis",
+        "symptom": "Bercak berair atau cokelat, menyebar luas, daun menggulung dan mati."
+      }
+    },
+    "brown_streak_disease": {
+      "name": "Penyakit Bercak Cokelat pada Singkong",
+      "info": {
+        "description": "Penyakit berbahaya yang disebabkan oleh Virus Cassava Brown Streak (CBSV).",
+        "agent": "Virus Cassava Brown Streak (CBSV)",
+        "symptom": "Batang bergaris cokelat, daun bercak kuning/cokelat, umbi busuk dan berubah warna."
+      }
+    },
+    "green_mottle": {
+      "name": "Penyakit Bercak Hijau pada Singkong",
+      "info": {
+        "description": "Disebabkan oleh Pseudomonas syringae pv. cassavae.",
+        "agent": "Bakteri Pseudomonas syringae pv. cassavae",
+        "symptom": "Bercak hijau pada daun, tanaman melemah, daun rontok."
+      }
+    },
+    "healthy": {
+      "name": "Tanaman Sehat",
+      "info": {
+        "description": "Tanaman sehat, daun hijau segar, batang kuat."
+      }
+    },
+    "mosaic_disease": {
+      "name": "Penyakit Mosaik pada Singkong",
+      "info": {
+        "description": "Disebabkan oleh Cassava Mosaic Virus (CMV).",
+        "agent": "Virus Cassava Mosaic (CMV)",
+        "symptom": "Pola mosaik hijau dan kuning pada daun, daun berubah bentuk, pertumbuhan terhambat."
+      }
+    }
+  },
+  "CherryDisease": {
+    "healthy": {
+      "name": "Tanaman Sehat",
+      "info": {
+        "description": "Cherry sehat dengan pertumbuhan baik, daun hijau, dan buah berkualitas."
+      }
+    },
+    "powdery_mildew": {
+      "name": "Embun Tepung pada Ceri",
+      "info": {
+        "description": "Disebabkan oleh jamur Erysiphales.",
+        "agent": "Jamur Erysiphales",
+        "symptom": "Lapisan putih seperti tepung di permukaan daun. Daun mengerut dan rontok."
+      }
+    }
+  },
+  "ChiliDisease": {
+    "healthy": { "name": "Tanaman Sehat", "info": { "description": "Tanaman cabai sehat." } },
+    "leaf_curl": {
+      "name": "Keriting Daun",
+      "info": {
+        "description": "Daun cabai mengerut dan berubah bentuk.",
+        "agent": "Virus",
+        "symptom": "Daun mengerut, mengecil, tanaman kerdil."
+      }
+    },
+    "leaf_spot": {
+      "name": "Bercak Daun",
+      "info": {
+        "description": "Bercak cokelat atau hitam pada daun.",
+        "agent": "Jamur atau Bakteri",
+        "symptom": "Bercak pada daun, daun rontok."
+      }
+    },
+    "whitefly": {
+      "name": "Serangan Kutu Putih",
+      "info": {
+        "description": "Kutu putih menghisap sari tanaman.",
+        "agent": "Serangga",
+        "symptom": "Daun menguning, rontok, tanaman lemah."
+      }
+    },
+    "yellowish": {
+      "name": "Penyakit Daun Kuning",
+      "info": {
+        "description": "Daun menguning karena nutrisi kurang atau infeksi.",
+        "agent": "Defisiensi Nutrisi atau Bakteri",
+        "symptom": "Daun kuning, tanaman kerdil."
+      }
+    }
+  },
+  "CitrusDisease": {
+    "black_spot": {
+      "name": "Bercak Hitam pada Jeruk",
+      "info": {
+        "description": "Disebabkan oleh jamur Guignardia citricarpa.",
+        "agent": "Jamur Guignardia citricarpa",
+        "symptom": "Bercak hitam pada daun, menyebabkan layu dan rontok."
+      }
+    },
+    "canker": {
+      "name": "Kanker Jeruk",
+      "info": {
+        "description": "Disebabkan oleh bakteri Xanthomonas axonopodis.",
+        "agent": "Bakteri Xanthomonas axonopodis",
+        "symptom": "Luka pada kulit batang, dahan, dan buah."
+      }
+    },
+    "greening": {
+      "name": "Penyakit Greening (Citrus Greening)",
+      "info": {
+        "description": "Penyakit serius oleh bakteri Candidatus Liberibacter.",
+        "agent": "Bakteri Candidatus Liberibacter spp.",
+        "symptom": "Daun menguning, buah kecil, masam, dan cacat."
+      }
+    },
+    "healthy": { "name": "Jeruk Sehat", "info": { "description": "Tanaman sehat." } },
+    "melanose": {
+      "name": "Melanose Jeruk",
+      "info": {
+        "description": "Disebabkan oleh jamur Diaporthe citri.",
+        "agent": "Jamur Diaporthe citri",
+        "symptom": "Bercak cokelat tua pada daun, dahan, dan buah."
+      }
+    }
+  },
+  "CoconutDisease": {
+    "caterpillars": { "name": "Ulat", "info": { "description": "Ulat memakan daun dan buah.", "agent": "Serangga", "symptom": "Lubang pada daun dan bekas gigitan." } },
+    "drying_of_leaflets": { "name": "Daun Kering", "info": { "description": "Daun kering dan menguning.", "agent": "Faktor lingkungan atau penyakit", "symptom": "Daun kering." } },
+    "flaccidity": { "name": "Daun Layu/Lembek", "info": { "description": "Daun lemas dan tidak kokoh.", "agent": "Nutrisi atau Penyakit", "symptom": "Daun lunak." } },
+    "leaflets": { "name": "Bercak Daun", "info": { "description": "Bercak cokelat atau hitam.", "agent": "Jamur/Bakteri", "symptom": "Bercak pada daun." } },
+    "yellowing": { "name": "Daun Menguning", "info": { "description": "Daun kuning karena nutrisi atau penyakit.", "agent": "Nutrisi/Penyakit", "symptom": "Daun kuning." } }
+  },
+  "CoffeeDisease": {
+    "cercospora_leaf_spot": { "name": "Bercak Daun Cercospora", "info": { "description": "Bercak cokelat dengan tepi kuning.", "agent": "Jamur Cercospora coffeicola", "symptom": "Bercak pada daun, rontok." } },
+    "healthy": { "name": "Tanaman Sehat", "info": { "description": "Tanaman kopi sehat." } },
+    "red_spider_mite": { "name": "Tungau Merah", "info": { "description": "Hama yang menghisap sari daun.", "agent": "Tungau", "symptom": "Daun kuning dan jaring laba-laba halus." } },
+    "rust": { "name": "Karat Daun", "info": { "description": "Bercak oranye/merah.", "agent": "Jamur Hemileia vastatrix", "symptom": "Bercak oranye, daun rontok." } }
+  },
+  "CornDisease": {
+    "common_rust": { "name": "Karat Jagung", "info": { "description": "Disebabkan oleh Puccinia sorghi.", "agent": "Jamur Puccinia sorghi", "symptom": "Bercak cokelat kemerahan." } },
+    "gray_leaf_spot": { "name": "Bercak Daun Abu-abu pada Jagung", "info": { "description": "Disebabkan oleh Cercospora zea-maydis.", "agent": "Jamur Cercospora zea-maydis", "symptom": "Bercak abu-abu pada daun." } },
+    "healthy": { "name": "Jagung Sehat", "info": { "description": "Jagung sehat." } },
+    "northern_leaf_blight": { "name": "Bercak Daun Besar pada Jagung", "info": { "description": "Disebabkan oleh Exserohilum turcicum.", "agent": "Jamur Exserohilum turcicum", "symptom": "Bercak cokelat hitam yang luas." } }
+  },
+  "GrapeDisease": {
+    "black_rot": { "name": "Busuk Hitam pada Anggur", "info": { "description": "Disebabkan oleh jamur Guignardia bidwellii.", "agent": "Jamur Guignardia bidwellii", "symptom": "Bercak hitam pada daun dan buah." } },
+    "blight": { "name": "Hawar pada Anggur", "info": { "description": "Disebabkan oleh jamur Elsinoë ampelina.", "agent": "Jamur Elsinoë ampelina", "symptom": "Bercak cokelat hitam pada daun." } },
+    "esca": { "name": "Penyakit Esca", "info": { "description": "Penyakit kompleks pada kayu.", "agent": "Jamur", "symptom": "Dahan mati, perubahan warna daun." } },
+    "healthy": { "name": "Anggur Sehat", "info": { "description": "Anggur sehat." } }
+  },
+  "GuavaDisease": {
+    "Canker": { "name": "Kanker Jambu", "info": { "description": "Luka pada batang dan daun.", "agent": "Bakteri Pseudomonas syringae", "symptom": "Luka cokelat." } },
+    "Dot": { "name": "Bercak Jambu", "info": { "description": "Bercak kecil pada daun/buah.", "agent": "Jamur Phyllosticta psidii", "symptom": "Bercak cokelat/hitam." } },
+    "Healthy": { "name": "Tanaman Sehat", "info": { "description": "Jambu sehat." } },
+    "Mummification": { "name": "Penyakit Mumifikasi Buah", "info": { "description": "Buah mengeras dan membusuk kering.", "agent": "Jamur Aspergillus niger", "symptom": "Buah hitam kering." } },
+    "Rust": { "name": "Karat Daun Jambu", "info": { "description": "Bercak karat di bawah daun.", "agent": "Jamur Puccinia psidii", "symptom": "Bercak oranye di bawah daun." } }
+  },
+  "JackDisease": {
+    "algal_spot": { "name": "Bercak Alga pada Nangka", "info": { "description": "Bercak cokelat/hitam pada daun.", "agent": "Alga", "symptom": "Bercak pada daun." } },
+    "black_spot": { "name": "Bercak Hitam pada Nangka", "info": { "description": "Disebabkan oleh jamur.", "agent": "Jamur", "symptom": "Bercak hitam." } },
+    "healthy": { "name": "Nangka Sehat", "info": { "description": "Tanaman sehat." } }
+  },
+  "MangoDisease": {
+    "anthracnose": { "name": "Antraknosa pada Mangga", "info": { "description": "Disebabkan oleh Colletotrichum.", "agent": "Jamur Colletotrichum gloeosporioides", "symptom": "Bercak cokelat pada daun/buah." } },
+    "back_die": { "name": "Mati Ranting pada Mangga", "info": { "description": "Disebabkan oleh Lasiodiplodia theobromae.", "agent": "Jamur Lasiodiplodia theobromae", "symptom": "Luka pada kulit batang." } },
+    "bacterial_canker": { "name": "Kanker Bakteri pada Mangga", "info": { "description": "Luka karena bakteri Xanthomonas.", "agent": "Bakteri Xanthomonas campestris", "symptom": "Luka pada batang dan buah." } },
+    "cutting_weevil": { "name": "Penggerek Daun Mangga", "info": { "description": "Hama serangga.", "agent": "Serangga", "symptom": "Lubang pada daun." } },
+    "gall_midge": { "name": "Lalat Gal pada Mangga", "info": { "description": "Serangga pembuat benjolan.", "agent": "Serangga", "symptom": "Benjolan pada batang/daun." } },
+    "healthy": { "name": "Mangga Sehat", "info": { "description": "Tanaman sehat." } },
+    "mildew_powdery": { "name": "Embun Tepung Mangga", "info": { "description": "Lapisan putih pada daun.", "agent": "Jamur", "symptom": "Lapisan putih." } },
+    "mould_sooty": { "name": "Embun Jelaga Mangga", "info": { "description": "Lapisan hitam pada daun.", "agent": "Jamur Capnodium mangiferae", "symptom": "Lapisan hitam." } }
+  },
+  "PeachDisease": {
+    "bacterial_spot": {
+      "name": "Bercak Bakteri pada Persik",
+      "info": {
+        "description": "Penyakit umum pada tanaman persik yang disebabkan oleh bakteri.",
+        "agent": "Bakteri Xanthomonas campestris pv. pruni",
+        "symptom": "Bercak cokelat atau hitam pada daun dan buah, menyebabkan penurunan produksi."
+      }
+    },
+    "healthy": {
+      "name": "Tanaman Sehat",
+      "info": {
+        "description": "Tanaman persik sehat tanpa tanda penyakit."
+      }
+    }
+  },
+  "PotatoDisease": {
+    "early_blight": {
+      "name": "Hawar Daun Awal pada Kentang",
+      "info": {
+        "description": "Disebabkan oleh jamur Alternaria solani dalam kondisi lembap.",
+        "agent": "Jamur Alternaria solani",
+        "symptom": "Bercak cokelat pada daun yang melemahkan tanaman."
+      }
+    },
+    "healthy": {
+      "name": "Tanaman Sehat",
+      "info": {
+        "description": "Tanaman kentang sehat dengan umbi berkualitas."
+      }
+    },
+    "late_blight": {
+      "name": "Hawar Daun Akhir (Busuk Daun) pada Kentang",
+      "info": {
+        "description": "Penyakit berbahaya yang disebabkan oleh jamur Phytophthora infestans.",
+        "agent": "Jamur Phytophthora infestans",
+        "symptom": "Bercak cokelat basah pada daun, menyebabkan tanaman cepat mati."
+      }
+    }
+  },
+  "RiceDisease": {
+    "bacterial_leaf_blight": {
+      "name": "Hawar Daun Bakteri pada Padi",
+      "info": {
+        "description": "Penyakit serius pada padi di kondisi lembap.",
+        "agent": "Bakteri Xanthomonas oryzae pv. oryzae",
+        "symptom": "Daun terbakar dari pinggir, ada garis kuning di sekitar luka."
+      }
+    },
+    "blast": {
+      "name": "Penyakit Blas pada Padi",
+      "info": {
+        "description": "Disebabkan oleh jamur yang menyerang daun dan leher malai.",
+        "agent": "Jamur Magnaporthe oryzae",
+        "symptom": "Bercak berbentuk belah ketupat, warna abu-abu atau cokelat."
+      }
+    },
+    "blight": {
+      "name": "Hawar Daun pada Padi",
+      "info": {
+        "description": "Daun memutih dan mengering.",
+        "agent": "Bakteri Xanthomonas oryzae pv. oryzicola",
+        "symptom": "Daun memutih dari ujung, muncul garis kecokelatan."
+      }
+    },
+    "brown_spot": {
+      "name": "Bercak Cokelat pada Padi",
+      "info": {
+        "description": "Bercak kecil kecokelatan.",
+        "agent": "Jamur Bipolaris oryzae",
+        "symptom": "Bercak bulat atau oval dengan pinggiran gelap."
+      }
+    },
+    "healthy": {
+      "name": "Padi Sehat",
+      "info": {
+        "description": "Tanaman padi sehat, hijau segar dan produktif."
+      }
+    },
+    "narrow_brown_spot": {
+      "name": "Bercak Cokelat Sempit pada Padi",
+      "info": {
+        "description": "Disebabkan oleh jamur.",
+        "agent": "Jamur Cercospora oryzae",
+        "symptom": "Bercak cokelat panjang dan sempit pada daun."
+      }
+    },
+    "scald": {
+      "name": "Hawar Pelepah pada Padi",
+      "info": {
+        "description": "Penyakit umum pada padi.",
+        "agent": "Jamur Rhizoctonia solani",
+        "symptom": "Bercak hijau pucat atau kuning, lalu berubah cokelat dan kering."
+      }
+    }
+  },
+  "StrawberryDisease": {
+    "healthy": {
+      "name": "Stroberi Sehat",
+      "info": {
+        "description": "Stroberi sehat tanpa tanda penyakit."
+      }
+    },
+    "leaf_scorch": {
+      "name": "Penyakit Hangus Daun pada Stroberi",
+      "info": {
+        "description": "Disebabkan oleh cuaca panas/kering.",
+        "agent": "Faktor Cuaca/Panas",
+        "symptom": "Daun memiliki bercak kering dan layu."
+      }
+    }
+  },
+  "TeaDisease": {
+    "algal_leaf": {
+      "name": "Bercak Alga pada Teh",
+      "info": {
+        "description": "Bercak hijau atau kuning pada daun.",
+        "agent": "Alga Cephaleuros virescens",
+        "symptom": "Bercak bulat atau tidak teratur berwarna hijau/kuning."
+      }
+    },
+    "anthracnose": {
+      "name": "Antraknosa pada Teh",
+      "info": {
+        "description": "Bercak cokelat/hitam pada daun dan dahan.",
+        "agent": "Jamur Colletotrichum",
+        "symptom": "Bercak pada daun dan ranting."
+      }
+    },
+    "bird_eye_spot": {
+      "name": "Bercak Mata Burung pada Teh",
+      "info": {
+        "description": "Bercak bulat dengan pinggiran hitam.",
+        "agent": "Jamur Cercospora theae",
+        "symptom": "Bercak bulat mirip mata burung."
+      }
+    },
+    "brown_blight": {
+      "name": "Hawar Cokelat pada Teh",
+      "info": {
+        "description": "Daun dan ranting kering kecokelatan.",
+        "agent": "Jamur Glomerella cingulata",
+        "symptom": "Daun dan ranting mati kering."
+      }
+    },
+    "healthy": {
+      "name": "Teh Sehat",
+      "info": {
+        "description": "Tanaman teh sehat."
+      }
+    },
+    "red_leaf_spot": {
+      "name": "Bercak Merah pada Teh",
+      "info": {
+        "description": "Bercak merah pada daun.",
+        "agent": "Jamur Phyllosticta theicola",
+        "symptom": "Bercak merah pada daun."
+      }
+    }
+  },
+  "TomatoDisease": {
+    "bacterial_spot": {
+      "name": "Bercak Bakteri pada Tomat",
+      "info": {
+        "description": "Penyakit tomat umum di daerah lembap.",
+        "agent": "Bakteri Xanthomonas campestris pv. vesicatoria",
+        "symptom": "Bercak cokelat hitam pada daun dan buah."
+      }
+    },
+    "curl_virus": {
+      "name": "Virus Keriting Daun pada Tomat",
+      "info": {
+        "description": "Ditularkan oleh serangga.",
+        "agent": "Begomovirus, Tomato Mosaic",
+        "symptom": "Daun menggulung dan berubah bentuk."
+      }
+    },
+    "early_blight": {
+      "name": "Hawar Daun Awal pada Tomat",
+      "info": {
+        "description": "Disebabkan oleh Alternaria solani.",
+        "agent": "Jamur Alternaria solani",
+        "symptom": "Bercak cokelat pada daun."
+      }
+    },
+    "healthy": {
+      "name": "Tomat Sehat",
+      "info": {
+        "description": "Tomat sehat."
+      }
+    },
+    "late_blight": {
+      "name": "Hawar Daun Akhir pada Tomat",
+      "info": {
+        "description": "Disebabkan oleh Phytophthora infestans.",
+        "agent": "Jamur Phytophthora infestans",
+        "symptom": "Bercak cokelat pada daun."
+      }
+    },
+    "leaf_mold": {
+      "name": "Jamur Daun Tomat",
+      "info": {
+        "description": "Lapisan jamur cokelat/abu-abu.",
+        "agent": "Jamur",
+        "symptom": "Lapisan di permukaan daun."
+      }
+    },
+    "mosaic_virus": {
+      "name": "Virus Mosaik pada Tomat",
+      "info": {
+        "description": "Penyakit virus yang ditularkan serangga.",
+        "agent": "Virus",
+        "symptom": "Warna daun tidak rata/bercak mosaik."
+      }
+    },
+    "septoria_leaf_spot": {
+      "name": "Bercak Daun Septoria pada Tomat",
+      "info": {
+        "description": "Disebabkan oleh Septoria lycopersici.",
+        "agent": "Jamur Septoria lycopersici",
+        "symptom": "Bercak cokelat pada daun."
+      }
+    },
+    "spot": {
+      "name": "Bercak Tomat",
+      "info": {
+        "description": "Bercak cokelat/hitam.",
+        "agent": "Jamur",
+        "symptom": "Bercak pada daun dan buah."
+      }
+    }
+  },
+  "WheatDisease": {
+    "brown_rust": {
+      "name": "Karat Cokelat pada Gandum",
+      "info": {
+        "description": "Penyakit jamur pada daun dan batang.",
+        "agent": "Jamur Puccinia triticina",
+        "symptom": "Bercak cokelat kemerahan."
+      }
+    },
+    "healthy": {
+      "name": "Gandum Sehat",
+      "info": {
+        "description": "Tanaman gandum sehat."
+      }
+    },
+    "yellow_rust": {
+      "name": "Karat Kuning pada Gandum",
+      "info": {
+        "description": "Penyakit serius pada gandum.",
+        "agent": "Jamur Puccinia striiformis",
+        "symptom": "Bercak kuning pucat hingga cokelat pada daun."
+      }
+    }
+  }
+}

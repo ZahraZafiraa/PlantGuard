@@ -1,0 +1,8 @@
+#/Dataset/*
+.history/
+/Logs
+.idea
+.vscode
+Datasets/
+Training/
+client/.env
